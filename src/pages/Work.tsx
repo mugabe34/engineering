@@ -1,14 +1,11 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
 
 const Work = () => {
   const [activeCategory, setActiveCategory] = useState("ALL");
   const projects = [
     {
-      image: project1,
+      image: "/project-1.jpg",
       title: "MINIMAL RESIDENCE",
       location: "NEW YORK, 2024",
       category: "RESIDENTIAL",
@@ -17,7 +14,7 @@ const Work = () => {
       year: "2024"
     },
     {
-      image: project2,
+      image: "/project-2.jpg",
       title: "CORPORATE HEADQUARTERS",
       location: "LONDON, 2023",
       category: "COMMERCIAL",
@@ -26,7 +23,7 @@ const Work = () => {
       year: "2023"
     },
     {
-      image: project3,
+      image: "/project-3.jpg",
       title: "CULTURAL CENTER",
       location: "TOKYO, 2023",
       category: "CULTURAL",
@@ -35,7 +32,7 @@ const Work = () => {
       year: "2023"
     },
     {
-      image: project1,
+      image: "/project-1.jpg",
       title: "URBAN LOFT",
       location: "BERLIN, 2024",
       category: "RESIDENTIAL",
@@ -44,7 +41,7 @@ const Work = () => {
       year: "2024"
     },
     {
-      image: project2,
+      image: "/project-2.jpg",
       title: "GALLERY SPACE",
       location: "PARIS, 2022",
       category: "CULTURAL",
@@ -53,7 +50,7 @@ const Work = () => {
       year: "2022"
     },
     {
-      image: project3,
+      image: "/project-3.jpg",
       title: "BOUTIQUE HOTEL",
       location: "MILAN, 2023",
       category: "HOSPITALITY",

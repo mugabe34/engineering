@@ -1,23 +1,19 @@
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
-
 const Portfolio = () => {
   const projects = [
     {
-      image: project1,
+      image: "/project-1.jpg",
       title: "MINIMAL RESIDENCE",
       location: "kigali, 2026",
       description: "A contemporary home focusing on light, space, and material honesty"
     },
     {
-      image: project2,
+      image: "/project-2.jpg",
       title: "CORPORATE HEADQUARTERS",
       location: "bugesera, 2026",
       description: "Modern office space emphasizing collaboration and natural elements"
     },
     {
-      image: project3,
+      image: "/project-3.jpg",
       title: "CULTURAL CENTER",
       location: "MUSANZE, 2026",
       description: "Public architecture that bridges tradition with contemporary design"

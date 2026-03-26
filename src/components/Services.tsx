@@ -27,14 +27,14 @@ const Services = () => {
     {
       id: "form1",
       title: "Kayishema Hugues Residential",
-      image: "/src/assets/shema.png",
+      image: "/shema.png",
       description: "High-end residential project focused on space optimization and luminous design.",
       price: "$2,300"
     },
     {
       id: "form2",
       title: "Bekeri Urban Housing",
-      image: "/src/assets/bereki.jpeg",
+      image: "/bereki.jpeg",
       description: "Modern urban housing with a strong emphasis on durability and usability.",
       price: "$2,800"
     }
@@ -42,7 +42,7 @@ const Services = () => {
 
   const portfolioItems = Array.from({ length: 15 }, (_, i) => ({
     id: `project${i + 1}`,
-    image: `/src/assets/${i + 1}.jpeg`,
+    image: `/${i + 1}.jpeg`,
     title: `Project ${i + 1}`,
     description: `Detailed architectural design case for project ${i + 1}.`,
     price: `$${1500 + i * 100}`
@@ -191,14 +191,14 @@ const Services = () => {
                             <div className="grid grid-cols-2 gap-2 sm:gap-3">
                               <div className="rounded-xl overflow-hidden h-36 sm:h-40 bg-muted/30">
                                 <img
-                                  src="/src/assets/bereki.jpeg"
+                                  src="/bereki.jpeg"
                                   alt="Bereki"
                                   className="w-full h-full object-cover transition duration-300 hover:scale-105"
                                 />
                               </div>
                               <div className="rounded-xl overflow-hidden h-36 sm:h-40 bg-muted/30">
                                 <img
-                                  src="/src/assets/shema.png"
+                                  src="/shema.png"
                                   alt="Kayishema Hugues"
                                   className="w-full h-full object-cover transition duration-300 hover:scale-105"
                                 />
@@ -340,7 +340,7 @@ const Services = () => {
                         <div className="grid md:grid-cols-2 gap-6">
                           <div className="relative overflow-hidden shadow-lg group/image">
                             <img
-                              src="/src/assets/ms.jpeg"
+                              src="/ms.jpeg"
                               alt="Private Notary"
                               className="w-full h-80 object-contain transition-transform duration-300 group-hover/image:scale-105"
                             />

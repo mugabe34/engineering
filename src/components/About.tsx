@@ -39,7 +39,7 @@ const About = () => {
 
               <div className="mt-12 overflow-hidden rounded-lg shadow-lg transition-all duration-300 ease-in-out hover:shadow-2xl hover:scale-105">
                 <img 
-                  src="/src/assets/bereki.jpeg" 
+                  src="/bereki.jpeg" 
                   alt="Engineer Kayishema" 
                   className="w-full h-auto object-cover transition-transform duration-300 ease-in-out hover:scale-110"
                 />
